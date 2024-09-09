@@ -1,0 +1,15 @@
+#এইখানে ফাংশনের ভিতরে যে যদি কোনো সংখ্যা না থাকে তাহলে পরে যখন ফাংশন কল করবো তখন ভেলু দিতে আর না দিলে দিফল্ট ভাবে ফাংশন এর ভিতরে অটো ভাবেকিছু থাকবেনা 
+def ave(a=20,b=7):#ekhane a=5,b=7 dei tahole 
+   print("The average is :",(a+b)/2)
+def name(fname,mname="M",lname="Mia"):
+    print("the name is:",fname,mname,lname)
+def ave2(a,b=5,c=6):
+  print("ave2 is :",(a+b+c)/2)
+ave() #ekhane a=20,b=7 niye ave ber kore dilo #taile ekhane default vabe a=5,b=7 hoye jabe abar jodi ekhane ami a=value diye dei tahole automtically b=7 upor theke niye nibe.
+ave(a=5)#ekane a=5 and upor thele b=7 niye ave ber korce
+#upore initial kora nicheo initial kora taile pririty dibe nicher takee.
+ave2(2,5)
+
+ave2(a=8)
+name("reza")
+name("reza","mia")
