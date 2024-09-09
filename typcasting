@@ -1,0 +1,12 @@
+#practice variable and typecast
+a= int(10)
+b= int(100)
+# c=1
+# print("The result is:",a+b)
+
+
+a=input ('Enter You name :')
+print("My name is: ",a)
+x=input("Enter Your first number :")
+y= input ("Enter Your second number:")
+print("the reasult of our calculation is :", int(x) int(y))
